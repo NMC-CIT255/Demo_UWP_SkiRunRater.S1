@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_UWP_SkiRunRater", "Demo_UWP_SkiRunRater\Demo_UWP_SkiRunRater.csproj", "{7D960A60-3DDF-496E-8A86-45599AD21CD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C62E2CEF-6E87-4584-B08F-7A59B1F1E245}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\InitializeDataFileXML.pdf = Documentation\InitializeDataFileXML.pdf
+		Documentation\SkiRunDataManagerXml.pdf = Documentation\SkiRunDataManagerXml.pdf
+		Documentation\SkiRunDataServiceXml.pdf = Documentation\SkiRunDataServiceXml.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|ARM.Build.0 = Debug|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x64.ActiveCfg = Debug|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x64.Build.0 = Debug|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x64.Deploy.0 = Debug|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x86.ActiveCfg = Debug|x86
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x86.Build.0 = Debug|x86
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Debug|x86.Deploy.0 = Debug|x86
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|ARM.ActiveCfg = Release|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|ARM.Build.0 = Release|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|ARM.Deploy.0 = Release|ARM
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x64.ActiveCfg = Release|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x64.Build.0 = Release|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x64.Deploy.0 = Release|x64
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x86.ActiveCfg = Release|x86
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x86.Build.0 = Release|x86
+		{7D960A60-3DDF-496E-8A86-45599AD21CD3}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
