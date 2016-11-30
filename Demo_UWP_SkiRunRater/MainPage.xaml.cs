@@ -55,5 +55,27 @@ namespace Demo_UWP_SkiRunRater
             BitmapImage bitmapImage = new BitmapImage(new Uri(this.BaseUri, $"/{skiRun.SkiRunImage}"));
             SkiRunImage.Source = bitmapImage;
         }
+
+        private void MinimumVertical_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void FilterListViewButton_Click(object sender, RoutedEventArgs e)
+        {
+            List<SkiRun> filteredListSkiRuns = new List<SkiRun>();
+
+            foreach (SkiRun skiRun in SkiRuns)
+            {
+                if (skiRun.Name == MinimumVertical.Text)
+                {
+                    filteredListSkiRuns.Add(skiRun);
+                }
+            }
+
+            SkiRuns = filteredListSkiRuns;
+
+            SkiRunListView.ItemsSource = filteredListSkiRuns;
+        }
     }
 }
